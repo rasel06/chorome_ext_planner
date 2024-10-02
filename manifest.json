@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Custom Dashboard",
+    "version": "1.0",
+    "description": "A personalized dashboard with customizable background, greeting, and widgets.",
+    "chrome_url_overrides": {
+        "newtab": "newtab.html"
+    },
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "storage",
+        "geolocation"
+    ]
+}
